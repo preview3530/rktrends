@@ -25,10 +25,13 @@ export default function App() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-              <div className="w-10 h-10 bg-slate-900 text-white flex items-center justify-center rounded-xl font-bold text-xl tracking-tighter">
-                RK
-              </div>
+            <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer">
+              <img 
+                src="https://www.image2url.com/r2/default/images/1789403678092-73b1f7e1-5833-4724-8fcb-b7fe0fb9d277.png" 
+                alt="RK Trends Logo" 
+                className="w-12 h-12 object-contain rounded-lg"
+                referrerPolicy="no-referrer"
+              />
               <span className="font-bold text-2xl tracking-tight">RK Trends</span>
             </div>
             
@@ -350,10 +353,13 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-slate-50 py-12 border-t border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <div className="w-8 h-8 bg-slate-900 text-white flex items-center justify-center rounded-lg font-bold text-sm">
-              RK
-            </div>
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <img 
+              src="https://www.image2url.com/r2/default/images/1789403678092-73b1f7e1-5833-4724-8fcb-b7fe0fb9d277.png" 
+              alt="RK Trends Logo" 
+              className="w-10 h-10 object-contain rounded-lg"
+              referrerPolicy="no-referrer"
+            />
             <span className="font-bold text-xl text-slate-900">RK Trends</span>
           </div>
           <p className="text-slate-500 mb-6">
