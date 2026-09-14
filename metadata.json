@@ -1,0 +1,6 @@
+{
+  "name": "RK Trends",
+  "description": "Professional dropshipping e-commerce website for RK Trends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
