@@ -164,10 +164,10 @@ export default function App() {
             <p className="text-slate-500 max-w-2xl mx-auto">Discover more problem-solving products for your everyday life.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {/* Product 2 */}
             <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
-              <div className="p-8 bg-white flex items-center justify-center relative overflow-hidden h-64">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
                 <img 
                   src="https://www.image2url.com/r2/default/images/1789402527464-3f260cf0-0bf9-414f-960f-b00884d2a98c.png" 
                   alt="Kitchen Faucet Sprayer" 
@@ -175,24 +175,24 @@ export default function App() {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="p-8 pt-0 flex flex-col flex-grow">
+              <div className="p-6 pt-0 flex flex-col flex-grow">
                 <div className="mt-4 mb-2 flex items-center gap-2">
-                  <span className="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Kitchen</span>
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Kitchen</span>
                 </div>
-                <h4 className="text-xl font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
                   Kitchen Faucet Sprayer – 3-Function Pull Down
                 </h4>
-                <div className="flex items-end gap-3 mb-6">
-                  <span className="text-3xl font-extrabold text-slate-900 tracking-tight">₹599</span>
-                  <span className="text-lg text-slate-400 line-through font-medium mb-1">₹999</span>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹599</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹999</span>
                 </div>
                 <a 
                   href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Kitchen Faucet Sprayer (₹599).")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-bold transition-transform hover:-translate-y-1 shadow-md shadow-green-500/20"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
                 >
-                  <MessageCircle size={20} />
+                  <MessageCircle size={18} />
                   <span>Buy on WhatsApp</span>
                 </a>
               </div>
@@ -200,7 +200,7 @@ export default function App() {
 
             {/* Product 3 */}
             <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
-              <div className="p-8 bg-white flex items-center justify-center relative overflow-hidden h-64">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
                 <img 
                   src="https://www.image2url.com/r2/default/images/1789402718898-21599d21-e38d-45ee-8d34-1e48675dbaf0.png" 
                   alt="Mini Plastic Bag Sealer" 
@@ -208,24 +208,222 @@ export default function App() {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="p-8 pt-0 flex flex-col flex-grow">
+              <div className="p-6 pt-0 flex flex-col flex-grow">
                 <div className="mt-4 mb-2 flex items-center gap-2">
-                  <span className="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Home Utility</span>
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Home Utility</span>
                 </div>
-                <h4 className="text-xl font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
                   Mini Plastic Bag Sealer for Airtight Food Freshness
                 </h4>
-                <div className="flex items-end gap-3 mb-6">
-                  <span className="text-3xl font-extrabold text-slate-900 tracking-tight">₹399</span>
-                  <span className="text-lg text-slate-400 line-through font-medium mb-1">₹699</span>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹549</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹899</span>
                 </div>
                 <a 
-                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Mini Plastic Bag Sealer (₹399).")}`}
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Mini Plastic Bag Sealer (₹549).")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-bold transition-transform hover:-translate-y-1 shadow-md shadow-green-500/20"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
                 >
-                  <MessageCircle size={20} />
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 4 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230aee.jpg" 
+                  alt="Magnetic Car Phone Mount" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Accessories</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Magnetic Car Phone Mount
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹599</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹999</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Magnetic Car Phone Mount (₹599).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 5 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230af4.png" 
+                  alt="Rechargeable USB Lighter" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Gadgets</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Rechargeable USB Lighter
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹649</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹1,099</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Rechargeable USB Lighter (₹649).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 6 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230b10.jpg" 
+                  alt="Pink Travel Jewelry Case" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Lifestyle</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Pink Travel Jewelry Case
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹799</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹1,299</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Pink Travel Jewelry Case (₹799).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 7 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230b2d.jpg" 
+                  alt="Compact Makeup Brush Set" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Beauty</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Compact Makeup Brush Set
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹699</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹1,199</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Compact Makeup Brush Set (₹699).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 8 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230b34.jpg" 
+                  alt="Blue Sleep Sound Machine" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Wellness</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Blue Sleep Sound Machine
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹1,299</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹2,499</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Blue Sleep Sound Machine (₹1299).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
+                  <span>Buy on WhatsApp</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Product 9 */}
+            <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all group flex flex-col">
+              <div className="p-6 bg-white flex items-center justify-center relative overflow-hidden h-56">
+                <img 
+                  src="image_230b50.png" 
+                  alt="Green Neck Massager" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-700 ease-out"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-6 pt-0 flex flex-col flex-grow">
+                <div className="mt-4 mb-2 flex items-center gap-2">
+                  <span className="bg-slate-100 text-slate-600 text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">Wellness</span>
+                </div>
+                <h4 className="text-lg font-bold text-slate-900 mb-2 leading-tight flex-grow">
+                  Green Neck Massager
+                </h4>
+                <div className="flex items-end gap-2 mb-5">
+                  <span className="text-2xl font-extrabold text-slate-900 tracking-tight">₹1,199</span>
+                  <span className="text-sm text-slate-400 line-through font-medium mb-1">₹2,299</span>
+                </div>
+                <a 
+                  href={`${waLink1}?text=${encodeURIComponent("Hi, I want to order the Green Neck Massager (₹1199).")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white px-4 py-2.5 rounded-xl font-bold transition-transform hover:-translate-y-0.5 shadow-md shadow-green-500/20"
+                >
+                  <MessageCircle size={18} />
                   <span>Buy on WhatsApp</span>
                 </a>
               </div>
